@@ -6,7 +6,7 @@ export default [
   },
   {
     moment:
-      'one interesting thing is how its compilation assets and context dependencies work. That was a big WTF before I dug into that',
+      'One interesting thing is how its compilation assets and context dependencies work. That was a big WTF before I dug into that',
     by: 'https://twitter.com/_philpl'
   },
   {
@@ -75,7 +75,7 @@ export default [
   },
   {
     moment:
-      'when I did `ng eject` and angular-cli spit out 500 line of webpack config. I freaked out.',
+      'When I did `ng eject` and angular-cli spit out 500 line of webpack config. I freaked out.',
     by: 'https://twitter.com/fhdhsni'
   },
   {
@@ -99,7 +99,7 @@ export default [
     by: 'https://twitter.com/imbenzenker'
   },
   {
-    moment: 'took me a full day to add babel-preset-env and to minify ES6 code',
+    moment: 'Took me a full day to add babel-preset-env and to minify ES6 code',
     by: 'https://twitter.com/alexnmoldovan'
   },
   {

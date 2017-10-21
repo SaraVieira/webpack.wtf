@@ -1,5 +1,10 @@
 <template>
   <div @keyup.enter="randomMoment" class="hello" v-bind:style="{ background, color }">
+    <div class="v-toaster">
+        <div class="v-toast v-toast-info more-wtf" v-on:click="randomMoment">
+          <a> Click for more WTF</a>
+        </div>
+      </div>
     <section class="main">
       <Moment :moment="moment" :linkColor="linkColor"/>
       <modal height="auto" name="webpack-what" class="modal">
@@ -38,10 +43,7 @@ export default {
         navy: '#001f3f',
         teal: '#39cccc',
         olive: '#3d9970',
-        green: '#2ecc40',
-        red: '#ff4136',
         maroon: '#85144b',
-        orange: '#ff851b',
         purple: '#b10dc9',
         yellow: '#ffdc00',
         gray: '#aaaaaa',
@@ -73,7 +75,10 @@ export default {
     }
   },
   mounted: function () {
-    this.$toaster.info('Press space for more WTF moments')
+    if (window.innerWidth > 768) {
+      this.$toaster.info('Press space for more WTF moments')
+    }
+
     this.randomMoment()
   },
   created: function () {
@@ -94,6 +99,19 @@ export default {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+  .more-wtf {
+    border-radius: 2px;
+    cursor: pointer;
+    ::before {
+      display: none;
+    }
+
+    a {
+      color: #fff;
+      opacity: 1;
+    }
+  }
 
   .main {
     width: 900px;
