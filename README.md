@@ -1,6 +1,7 @@
 # webpack.wtf
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/SaraVieira/webpack.wtf.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/SaraVieira/webpack.wtf.svg?branch=master)](https://travis-ci.org/SaraVieira/webpack.wtf)
 
 > WTF Webpack moments
 
@@ -25,5 +26,4 @@ npm run unit
 # run all tests
 npm test
 ```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Add your own wtf moment [here](https://github.com/SaraVieira/webpack.wtf/blob/master/src/data/data.js)
