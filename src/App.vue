@@ -13,6 +13,8 @@ export default {
 </script>
 
 <style lang="scss">
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,700');
 html,
 body {
   margin: 0;
