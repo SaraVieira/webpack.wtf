@@ -1,6 +1,6 @@
 <template>
   <div @keyup.enter="randomMoment" class="hello" v-bind:style="{ background, color }">
-    <div class="v-toaster">
+    <div v-if="mobile" class="v-toaster">
         <div class="v-toast v-toast-info more-wtf" v-on:click="randomMoment">
           <a> Click for more WTF</a>
         </div>
@@ -32,6 +32,7 @@ export default {
   data: function () {
     return {
       background: '',
+      mobile: window.innerWidth <= 768,
       moments,
       moment: {},
       color: '',
