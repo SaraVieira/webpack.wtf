@@ -128,12 +128,12 @@ export default [
   },
   {
     moment:
-      'My last production setup took about about 15 plugins and 150 SLOC 😅–I wonder how big it\'d be if I hadn\'t splitted our config in different files for different envs.',
+      "My last production setup took about about 15 plugins and 150 SLOC 😅–I wonder how big it'd be if I hadn't splitted our config in different files for different envs.",
     by: 'https://twitter.com/ythecombinator'
   },
   {
     moment:
-      'Wish I could turn back time, to the good old days when... I only had to optimise my application bundle size with webpack–now all the optimisations I do are about reducing full/incremental build times 🙈.',
+      "'Wish I could turn back time, to the good old days when...' I only had to optimise my application bundle size with webpack–now all the optimisations I do are about reducing full/incremental build times 🙈.",
     by: 'https://twitter.com/ythecombinator'
   }  
 ]
