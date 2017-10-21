@@ -135,5 +135,5 @@ export default [
     moment:
       "'Wish I could turn back time, to the good old days when...' I only had to optimise my application bundle size with webpack–now all the optimisations I do are about reducing full/incremental build times 🙈.",
     by: 'https://twitter.com/ythecombinator'
-  }  
+  }
 ]
