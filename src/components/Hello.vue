@@ -2,16 +2,21 @@
   <div @keyup.enter="randomMoment" class="hello" v-bind:style="{ background, color }">
     <section class="main">
       <h1>{{moment.moment}}</h1>
-      <a target="_blank" :href="moment.by" v-bind:style="{ color: linkColor }">{{(moment.by || '').split('twitter.com/')[1]}}</a>
+      <a target="_blank" rel="noopener" :href="moment.by" v-bind:style="{ color: linkColor }">{{(moment.by || '').split('twitter.com/')[1]}}</a>
       <modal height="auto" name="hello-world" class="modal">
         <p>
           Webpack is fucking magic, you type a configuration and awesome shit appears in your screen. The problem is that none of us actually know how to write that configuration.
         </p>
         <h3> Want to learn Webpack ?</h3>
-        <a target="_blank" href="https://webpack.academy/">Webpack Academy</a>
-        <a target="_blank" href="https://webpack.js.org/concepts/">Le Docs</a>
+        <a target="_blank" rel="noopener" href="https://webpack.academy/">Webpack Academy</a>
+        <a target="_blank" rel="noopener" href="https://webpack.js.org/concepts/">Le Docs</a>
       </modal>
-      <h3 class="link" v-on:click="show">WTF is Webpack ?</h3>
+      <div class="links">
+        <h3 class="link" v-on:click="show">WTF is Webpack ?</h3>
+        <h3>
+          <a target="_blank" rel="noopener" v-bind:style="{ color }" href="https://github.com/SaraVieira/webpack.wtf/blob/master/src/data/data.js">Add your moment</a>
+        </h3>
+      </div>
     </section>
   </div>
 </template>
@@ -90,11 +95,20 @@ export default {
   justify-content: center;
   flex-direction: column;
 
-  .link {
+  .links {
     cursor: pointer;
     position: fixed;
-    bottom: 10px;
-    right: 10px;
+    bottom: 20px;
+    right: 20px;
+
+    h3 {
+      margin: 0;
+      margin-bottom: 10px;
+
+      a {
+        text-decoration: none;
+      }
+    }
   }
 
   h1 {
@@ -102,7 +116,8 @@ export default {
   }
 
   .main {
-    max-width: 900px;
+    width: 900px;
+    max-width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;

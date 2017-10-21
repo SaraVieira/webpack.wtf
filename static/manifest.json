@@ -1,6 +1,6 @@
 {
   "name": "webpack.wtf",
-  "short_name": "WTF Webpack moments",
+  "short_name": "WTF Webpack?",
   "icons": [
     {
       "src": "/static/img/icons/android-chrome-192x192.png",
