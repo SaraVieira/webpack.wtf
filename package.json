@@ -108,7 +108,7 @@
     },
     {
       "path": "./dist/static/js/app.*.js",
-      "maxSize": "4.6 kB"
+      "maxSize": "4.85 kB"
     }
   ]
 }
