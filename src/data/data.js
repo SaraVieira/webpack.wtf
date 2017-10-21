@@ -120,5 +120,10 @@ export default [
     moment:
       'When I started getting HMR to work I really wanted to quit my job and start driving an uber',
     by: 'https://twitter.com/NikkitaFTW'
+  },
+  {
+    moment:
+      'I just keep adding webpack loaders until it works 😅',
+    by: 'https://twitter.com/piq9117'
   }
 ]
