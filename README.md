@@ -1,5 +1,7 @@
 # webpack.wtf
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/SaraVieira/webpack.wtf.svg)](https://greenkeeper.io/)
+
 > WTF Webpack moments
 
 ## Build Setup
