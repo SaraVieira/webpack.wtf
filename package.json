@@ -11,7 +11,9 @@
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "test": "run-s build lint unit size",
     "size": "bundlesize",
-    "lint": "eslint --ext .js,.vue src test/unit/specs"
+    "lint": "eslint --ext .js,.vue src test/unit/specs",
+    "deploy": "run-s build now",
+    "now": "cd dist/ && now"
   },
   "dependencies": {
     "colorable": "^1.0.5",
@@ -92,6 +94,7 @@
     "webpack-hot-middleware": "^2.18.0",
     "webpack-merge": "^4.1.0"
   },
+  "alias": "webpack.wtf",
   "engines": {
     "node": ">= 4.0.0",
     "npm": ">= 3.0.0"
