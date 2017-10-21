@@ -19,17 +19,29 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
-}
-
-#app {
   font-family: 'Libre Franklin', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+  line-height: 1.6;
+}
+
+.v-toaster {
+    width: 320px;
+    .v-toast {
+    border-radius: 2px;
+    width: 320px;
+
+    .v-toast-btn-clear {
+      float: none;
+      margin-right: 10px;
+    }
+  }
+}
+
+#app {
   height: 100%;
   width: 100%;
-  line-height: 1.6;
-
   main {
     text-align: center;
     height: 100%;

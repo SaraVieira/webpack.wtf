@@ -4,7 +4,10 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import vmodal from 'vue-js-modal'
+import Toaster from 'v-toaster'
+import 'v-toaster/dist/v-toaster.css'
 
+Vue.use(Toaster)
 Vue.config.productionTip = false
 Vue.use(vmodal)
 
