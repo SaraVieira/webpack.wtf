@@ -32,7 +32,7 @@ export default {
   data: function () {
     return {
       background: '',
-      mobile: window.innerWidth <= 768,
+      mobile: window.innerWidth <= 1024,
       moments,
       moment: {},
       color: '',
@@ -76,7 +76,7 @@ export default {
     }
   },
   mounted: function () {
-    if (window.innerWidth > 768) {
+    if (window.innerWidth > 1024) {
       this.$toaster.info('Press space for more WTF moments')
     }
 

@@ -135,9 +135,10 @@ export default [
     moment:
       "'Wish I could turn back time, to the good old days when...' I only had to optimise my application bundle size with webpack–now all the optimisations I do are about reducing full/incremental build times 🙈.",
     by: 'https://twitter.com/ythecombinator'
-  },{
+  },
+  {
     moment:
-      'After struggling 2 months to finally understand webpack (w/ no module bundler bkg), I organized a tech talk to introduce it to my colleagues. In the end a friend of mine asked, Does it really worth it?',
+      'After struggling 2 months to finally understand webpack (w/ no module bundler bkg), I organized a tech talk to introduce it to my colleagues. In the end a friend of mine asked, Is it really worth it?',
     by: 'https://twitter.com/Marcelo_RL'
   }
 ]
