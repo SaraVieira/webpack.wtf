@@ -5,9 +5,7 @@
 
 > WTF Webpack moments
 
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/TcwA1EShekGpPzRyQvGn9ysQ/SaraVieira/webpack.wtf'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/TcwA1EShekGpPzRyQvGn9ysQ/SaraVieira/webpack.wtf.svg' />
-</a>
+
 
 ## Build Setup
 
