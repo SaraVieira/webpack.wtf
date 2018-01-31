@@ -86,7 +86,7 @@
     "uglify-es": "^3.0.25",
     "url-loader": "^0.6.2",
     "vue-loader": "^13.3.0",
-    "vue-style-loader": "^3.0.1",
+    "vue-style-loader": "^4.0.1",
     "vue-template-compiler": "^2.3.3",
     "webpack": "^3.8.1",
     "webpack-bundle-analyzer": "^2.2.1",
