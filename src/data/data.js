@@ -140,5 +140,10 @@ export default [
     moment:
       'After struggling 2 months to finally understand webpack (w/ no module bundler bkg), I organized a tech talk to introduce it to my colleagues. In the end a friend of mine asked, Is it really worth it?',
     by: 'https://twitter.com/Marcelo_RL'
+  },
+    {
+    moment:
+      'You have my condolences if you ever find yourself trying to get old jQuery plugins to work while making the switch to Webpack.',
+    by: 'https://twitter.com/rossta'
   }
 ]
