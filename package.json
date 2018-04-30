@@ -80,7 +80,7 @@
     "sass-loader": "^6.0.6",
     "semver": "^5.3.0",
     "shelljs": "^0.8.0",
-    "sinon": "^4.0.1",
+    "sinon": "^5.0.1",
     "sinon-chai": "^2.8.0",
     "sw-precache-webpack-plugin": "^0.11.4",
     "uglify-es": "^3.0.25",
