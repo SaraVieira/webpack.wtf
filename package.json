@@ -43,7 +43,7 @@
     "css-loader": "^0.28.0",
     "cssnano": "^3.10.0",
     "eslint": "^4.9.0",
-    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard": "^12.0.0",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.7.1",
     "eslint-plugin-html": "^4.0.1",
